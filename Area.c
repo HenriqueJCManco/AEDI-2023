@@ -1,12 +1,16 @@
 #include <stdio.h>
+#include <math.h> 
 
 int main (){
-    float area, raio, Raio, pi;
-    Raio = 0;
-    area =0;
+
+    double area, Raio, pi;
     pi = 3.14159;
-    scanf("%f", &raio);
-    Raio = raio * raio;
-    area = pi * Raio;
-    printf("A=%.4f", area);
+
+    scanf("%lf", &Raio);
+
+    area = pi * pow(Raio,2);
+
+    printf("A=%.4lf\n", area);
+
+    return 0;
 }
