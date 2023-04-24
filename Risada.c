@@ -12,7 +12,7 @@ int vogal(char letra){
 
     return 0;
 }
-
+ 
 
 int main(){
     int i, f;
