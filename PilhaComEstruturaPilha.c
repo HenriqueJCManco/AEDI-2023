@@ -67,7 +67,7 @@ No *desempilhar(Pilha *p) {
 // funcao imprimir rece ponteiro para o topo
 void imprimir_pilha(Pilha *p) {
   No *aux = p->topo;
-  printf("\n------------- PILHA -------------\n");
+  printf("\n------------- PILHA Tam:%d-------------\n", p->tam);
   while (aux) {
     imprimir_pessoa(aux->p);
     aux = aux->proximo;
